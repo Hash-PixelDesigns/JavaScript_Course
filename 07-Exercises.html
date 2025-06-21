@@ -13,7 +13,11 @@
   <script>
 
     function greet (name) {
-    console.log(`Hello ${name}!`)
+      if (!name) {
+        console.log('Hi There');
+      } else {
+      console.log(`Hello ${name}!`)
+      }
     }
 
     greet('Harshana');
